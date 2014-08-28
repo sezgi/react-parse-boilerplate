@@ -1,0 +1,52 @@
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Flibbertigibbet</title>
+  <meta name="description" content="Flibbertigibbet">
+  <meta name="viewport" content="width=device-width">
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/build/flibbertigibbet.min.css?rel=1409263092978">
+
+  <script type="text/javascript" src="//www.parsecdn.com/js/parse-1.2.19.min.js"></script>
+</head>
+
+<body>
+  
+  <div id="fb-root"></div>
+  <script>
+    window.fbAsyncInit = function() {
+      Parse.FacebookUtils.init({
+        appId      : '250235915165087',
+        cookie     : true, // enable cookies to allow Parse to access the session
+        xfbml      : true  // parse XFBML
+      });
+    };
+
+    (function(d, s, id){
+       var js, fjs = d.getElementsByTagName(s)[0];
+       if (d.getElementById(id)) {return;}
+       js = d.createElement(s); js.id = id;
+       js.src = "//connect.facebook.net/en_US/all.js";
+       fjs.parentNode.insertBefore(js, fjs);
+     }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+
+  <!-- MAIN -->
+
+  <div id="main" class="container-fluid">
+  </div>
+
+  <script type="text/javascript">
+    Parse.initialize("9Ng29k63z5eIGtf6No27eRIv5euanW2jllGlk079", "YqOmJpkAhLRLbXT6VphCj0SiYagTHfg0wOnuKbFb"); 
+  </script>
+
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/react/0.11.1/react.js"></script>
+  
+  <script type="text/javascript" src="/build/flibbertigibbet.min.js?rel=1409263092979"></script>
+</body>
+</html>

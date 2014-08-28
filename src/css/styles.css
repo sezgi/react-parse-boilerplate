@@ -1,0 +1,71 @@
+body {
+  background: #eee;
+  text-align: center;
+  padding: 0 25px;
+  font-family: 'Helvetica Neue', Helvetica, 'Myriad Pro', 'Lucida Grande', sans-serif;
+}
+
+#main {
+  width: 500px;
+  margin: auto;
+  text-align: left;
+  background: white;
+  padding: 50px 60px;
+  border: solid #ddd;
+  border-width: 0 1px 1px 1px;
+}
+
+#main h1 {
+  margin-top: 0;
+  font-size: 35px;
+}
+
+#main ul {
+  padding-left: 20px;
+}
+
+#main .error {
+  border: 1px solid red;
+  background: #FDEFF0;
+  padding: 20px;
+}
+
+#main .success {
+  margin-top: 25px;
+}
+
+#main .success code {
+  font-size: 12px;
+  color: green;
+  line-height: 13px;
+}
+
+.button-link:hover {
+  text-decoration: none;
+}
+
+.login-button {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  padding: 0 10px 0 40px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: all .1s ease;
+  box-shadow: rgba(255,255,255,0.25) 0 1px 0 inset,rgba(0,0,0,0.05) 0 -1px 1px inset,rgba(0,0,0,0.15) 0 1px 2px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: left;
+  text-shadow: rgba(0,0,0,0.3) 0 -1px 0;
+  background: url(/images/glyphs/glyph_facebook_white.png?1404775614) no-repeat 10px center, linear-gradient(#3b5998,#3b5998);
+}
+
+.login-button:hover {
+  color: #fff;
+  background: url(/images/glyphs/glyph_facebook_white.png?1404775614) no-repeat 10px center, linear-gradient(#4e6daf,#4e6daf);
+}
