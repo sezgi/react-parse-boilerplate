@@ -7,5 +7,5 @@ var server = app.listen(3000, function() {
 });
 
 app.get('/', function(req, res) {
-  res.sendFile('/Users/sez/Code/parse/flibbertigibbet/index.html');
+  res.sendFile(__dirname + '/index.html');
 });
